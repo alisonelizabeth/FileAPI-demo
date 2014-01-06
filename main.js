@@ -8,7 +8,8 @@ $(document).ready(function(){
 function readURL(input) {
     if (input.files && input.files[0]) {
     	console.log(input.files)
-    	// files is a FileList of File objects.
+        console.log(input.files[0])
+    	// files represents FileList 
     	
         var reader = new FileReader();
         console.log(reader)
@@ -32,3 +33,4 @@ function readURL(input) {
 // Resources:
 // http://www.w3.org/TR/file-upload/
 // http://www.html5rocks.com/en/tutorials/file/dndfiles/ 
+// http://www.onlywebpro.com/2012/01/24/create-thumbnail-preview-of-images-using-html5-api/
