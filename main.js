@@ -8,7 +8,6 @@ $(document).ready(function(){
 function readURL(input) {
     if (input.files && input.files[0]) {
     	console.log(input.files)
-        console.log(input.files[0])
     	// files represents FileList 
     	
         var reader = new FileReader();
@@ -34,3 +33,4 @@ function readURL(input) {
 // http://www.w3.org/TR/file-upload/
 // http://www.html5rocks.com/en/tutorials/file/dndfiles/ 
 // http://www.onlywebpro.com/2012/01/24/create-thumbnail-preview-of-images-using-html5-api/
+// http://stackoverflow.com/questions/18934738/select-and-display-images-using-filereader
